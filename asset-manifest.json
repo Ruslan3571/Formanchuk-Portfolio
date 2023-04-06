@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/Formanchuk-Portfolio/static/css/main.7acaea2f.css",
-    "main.js": "/Formanchuk-Portfolio/static/js/main.07d3183d.js",
+    "main.css": "/Formanchuk-Portfolio/static/css/main.8d077a68.css",
+    "main.js": "/Formanchuk-Portfolio/static/js/main.35cc9917.js",
+    "static/media/profilephoto.png": "/Formanchuk-Portfolio/static/media/profilephoto.5c84bc66e8846f8b7db4.png",
+    "static/media/Poppins-Thin.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/bg.jpg": "/Formanchuk-Portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
     "index.html": "/Formanchuk-Portfolio/index.html",
-    "main.7acaea2f.css.map": "/Formanchuk-Portfolio/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Formanchuk-Portfolio/static/js/main.07d3183d.js.map"
+    "main.8d077a68.css.map": "/Formanchuk-Portfolio/static/css/main.8d077a68.css.map",
+    "main.35cc9917.js.map": "/Formanchuk-Portfolio/static/js/main.35cc9917.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.8d077a68.css",
+    "static/js/main.35cc9917.js"
   ]
 }
