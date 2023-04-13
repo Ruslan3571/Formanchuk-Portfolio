@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollService from '../../../../utilites/ScrollService';
 import './Profile.css';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 function Profile() {
   return (
@@ -45,7 +45,8 @@ function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               <h1>
-                <Typical
+                'Ethusiastic Dev 🤩 '
+                {/* <Typical
                   loop={Infinity}
                   steps={[
                     'Ethusiastic Dev 🤩 ',
@@ -57,14 +58,14 @@ function Profile() {
                     'I love what I do - code ⚡',
                     2000,
                   ]}
-                />
+                /> */}
               </h1>
             </span>
             <span className="profile-role-tagline">
               Knack of building application with front and back and operations.
             </span>
           </div>
-          
+
           <div className="profile-options">
             <button
               className="btn primary-btn"
