@@ -149,8 +149,19 @@ body ::-webkit-scrollbar-thumb {
   border: 1px solid var(--error-message) !important;
 }
 
-.fade-in {
+/* .fade-in {
+  opacity: 0.5;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+} */
+
+.block {
   opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fade-in {
+  opacity: 1;
   transform: translateY(80px);
   transition: all 0.8s ease;
 }

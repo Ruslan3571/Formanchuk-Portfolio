@@ -1,6 +1,7 @@
 import React from 'react';
+import ScrollService from '../../../../utilites/ScrollService';
 import './Profile.css';
-// import Typical from 'react-typical';
+import Typical from 'react-typical';
 
 function Profile() {
   return (
@@ -35,7 +36,7 @@ function Profile() {
               </a>
             </div>
           </div>
-          
+
           <div className="profile-details-name">
             <span className="primary-text">
               Hello, I'M <span className="highlighted-text">Ruslan</span>
@@ -44,7 +45,7 @@ function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               <h1>
-                {/* <Typical
+                <Typical
                   loop={Infinity}
                   steps={[
                     'Ethusiastic Dev 🤩 ',
@@ -56,16 +57,21 @@ function Profile() {
                     'I love what I do - code ⚡',
                     2000,
                   ]}
-                /> */}
+                />
               </h1>
-              <span className="profile-role-tagline">
-                Knack of building application with front and back and
-                operations.
-              </span>
+            </span>
+            <span className="profile-role-tagline">
+              Knack of building application with front and back and operations.
             </span>
           </div>
+          
           <div className="profile-options">
-            <button className="btn primary-btn">Hire Me</button>
+            <button
+              className="btn primary-btn"
+              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            >
+              Hire Me
+            </button>
             <a href="./CV_Ruslan_Formanchuk.pdf" download>
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
