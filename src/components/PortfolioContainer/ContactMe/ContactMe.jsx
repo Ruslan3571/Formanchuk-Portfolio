@@ -47,7 +47,7 @@ function ContactMe(props) {
         email,
         message,
       };
-      setBool(true);
+
       if (
         data.name.length === 0 ||
         data.email.length === 0 ||
@@ -57,18 +57,29 @@ function ContactMe(props) {
         toast.error('Заповніть всі поля');
         setBool(false);
       } else {
-        emailjs.sendForm(
-          'service_1q7iy2h',
-          'template_jcu78lc',
-          form.current,
-          'OFzn93ipUgMSrvCH7'
-        );
-        setBanner('Повідомлення успішно відправленно');
-        toast.success('Повідомлення успішно відправленно');
-        setBool(false);
-        setName('');
-        setEmail('');
-        setMessage('');
+        setBool(true);
+        setBanner('Відправка повідомлення...');
+        emailjs
+          .sendForm(
+            'service_1q7iy2h',
+            'template_jcu78lc',
+            form.current,
+            'OFzn93ipUgMSrvCH7'
+          )
+          .then(() => {
+            setBanner('Повідомлення успішно відправленно');
+            toast.success('Повідомлення успішно відправленно');
+            setBool(false);
+            setName('');
+            setEmail('');
+            setMessage('');
+          })
+          .catch(error => {
+            setBanner('Помилка при відправці повідомлення');
+            toast.error('Помилка при відправці повідомлення');
+            setBool(false);
+            console.log(error);
+          });
       }
     } catch (error) {
       console.log(error);
