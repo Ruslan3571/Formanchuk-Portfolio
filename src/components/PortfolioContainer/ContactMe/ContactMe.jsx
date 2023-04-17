@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // import Typical from 'react-typical';
-import axios from 'axios';
-import { toast } from 'react-toastify';
+// import axios from 'axios';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import imgBack from '../../assets/img/images/mailz.jpeg';
 import load1 from '../../assets/img/images/load2.gif';
 import ScreenHeading from '../../../utilites/ScreenHeading/ScreenHeading';
@@ -34,8 +36,11 @@ function ContactMe(props) {
     setMessage(e.target.value);
   };
 
-  const submitForm = async e => {
+  const form = useRef();
+
+  const sendEmail = e => {
     e.preventDefault();
+
     try {
       let data = {
         name,
@@ -43,16 +48,24 @@ function ContactMe(props) {
         message,
       };
       setBool(true);
-      const res = await axios.post(`/contact`, data);
-      if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
-        toast.error(res.data.msg);
+      if (
+        data.name.length === 0 ||
+        data.email.length === 0 ||
+        data.message.length === 0
+      ) {
+        setBanner('Заповніть всі поля');
+        toast.error('Заповніть всі поля');
         setBool(false);
-      } else if (res.status === 200) {
-        setBanner(res.data.msg);
-        toast.success(res.data.msg);
+      } else {
+        emailjs.sendForm(
+          'service_1q7iy2h',
+          'template_jcu78lc',
+          form.current,
+          'OFzn93ipUgMSrvCH7'
+        );
+        setBanner('Повідомлення успішно відправленно');
+        toast.success('Повідомлення успішно відправленно');
         setBool(false);
-
         setName('');
         setEmail('');
         setMessage('');
@@ -61,6 +74,35 @@ function ContactMe(props) {
       console.log(error);
     }
   };
+
+  // const submitForm = async e => {
+  //   e.preventDefault();
+  //   try {
+  //     let data = {
+  //       name,
+  //       email,
+  //       message,
+  //     };
+  //     setBool(true);
+  //     const res = await axios.post(`/contact`, data);
+  //     if (name.length === 0 || email.length === 0 || message.length === 0) {
+  //       setBanner(res.data.msg);
+  //       toast.error(res.data.msg);
+  //       setBool(false);
+  //     } else if (res.status === 200) {
+  //       setBanner(res.data.msg);
+  //       toast.success(res.data.msg);
+  //       setBool(false);
+
+  //       setName('');
+  //       setEmail('');
+  //       setMessage('');
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
   useEffect(() => {
     return () => {
       fadeInSubscription.unsubscribe();
@@ -106,16 +148,31 @@ function ContactMe(props) {
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt=" not found" />
           </div>
-          <form onSubmit={submitForm}>
+          <form onSubmit={sendEmail} ref={form}>
             <p>{banner}</p>
             <label className="name">Name</label>
-            <input type="text" onChange={handleName} value={name} />
+            <input
+              type="text"
+              onChange={handleName}
+              value={name}
+              name="user_name"
+            />
 
             <label className="email">Email</label>
-            <input type="email" onChange={handleEmail} value={email} />
+            <input
+              type="email"
+              onChange={handleEmail}
+              value={email}
+              name="user_email"
+            />
 
             <label className="message">Message</label>
-            <textarea type="text" onChange={handleMessage} value={message} />
+            <textarea
+              type="text"
+              onChange={handleMessage}
+              value={message}
+              name="message"
+            />
 
             <div className="send-btn">
               <button type="submit">
@@ -130,6 +187,7 @@ function ContactMe(props) {
               </button>
             </div>
           </form>
+          <ToastContainer />
         </div>
       </div>
     </div>
