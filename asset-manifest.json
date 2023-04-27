@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Formanchuk-Portfolio/static/css/main.442a7637.css",
-    "main.js": "/Formanchuk-Portfolio/static/js/main.3abebdf0.js",
+    "main.js": "/Formanchuk-Portfolio/static/js/main.79e54de2.js",
     "static/media/kuzyk.png": "/Formanchuk-Portfolio/static/media/kuzyk.3cc411ca8dce011d1a24.png",
     "static/media/protsiv.png": "/Formanchuk-Portfolio/static/media/protsiv.e23c98f9353fb4ddcc4a.png",
     "static/media/me.jpeg": "/Formanchuk-Portfolio/static/media/me.a9eb4c523dfbf15b926e.jpeg",
@@ -28,10 +28,10 @@
     "static/media/education.svg": "/Formanchuk-Portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/Formanchuk-Portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
     "main.442a7637.css.map": "/Formanchuk-Portfolio/static/css/main.442a7637.css.map",
-    "main.3abebdf0.js.map": "/Formanchuk-Portfolio/static/js/main.3abebdf0.js.map"
+    "main.79e54de2.js.map": "/Formanchuk-Portfolio/static/js/main.79e54de2.js.map"
   },
   "entrypoints": [
     "static/css/main.442a7637.css",
-    "static/js/main.3abebdf0.js"
+    "static/js/main.79e54de2.js"
   ]
 }
