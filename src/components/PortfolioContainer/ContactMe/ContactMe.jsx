@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-// import Typical from 'react-typical';
+import Typewriter from 'typewriter-effect';
 // import axios from 'axios';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
@@ -126,8 +126,14 @@ function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            'Get In Touch 📧'
-            {/* <Typical loop={Infinity} steps={['Get In Touch 📧', 1000]} /> */}
+            <Typewriter
+              options={{
+                strings: ['Get In Touch 📧'],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+              }}
+            />
           </h2>
           <a
             href="https://www.facebook.com/profile.php?id=100003372431767"

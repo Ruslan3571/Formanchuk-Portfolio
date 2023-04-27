@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollService from '../../../../utilites/ScrollService';
 import './Profile.css';
-// import Typical from 'react-typical';
+import Typewriter from 'typewriter-effect';
 
 function Profile() {
   return (
@@ -45,20 +45,20 @@ function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               <h1>
-                'Ethusiastic Dev 🤩 '
-                {/* <Typical
-                  loop={Infinity}
-                  steps={[
-                    'Ethusiastic Dev 🤩 ',
-                    2000,
-                    'Full Stack Developer 💻',
-                    2000,
-                    'React Dev 😎',
-                    2000,
-                    'I love what I do - code ⚡',
-                    2000,
-                  ]}
-                /> */}
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Developer',
+                      'Ethusiastic Dev 🤩',
+                      'Full Stack Developer 💻',
+                      'React Dev 😎',
+                      'I love what I do - code ⚡',
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                  }}
+                />
               </h1>
             </span>
             <span className="profile-role-tagline">
