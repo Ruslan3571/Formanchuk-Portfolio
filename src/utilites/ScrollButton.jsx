@@ -39,12 +39,12 @@
 
 // export default ScrollButton;
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const ScrollButton = () => {
   const [showScroll, setShowScroll] = useState(false);
 
-  const checkScrollTop = () => {
+  const checkScrollTop = useCallback(() => {
     if (
       !showScroll &&
       (window.pageYOffset > 400 ||
@@ -54,7 +54,7 @@ const ScrollButton = () => {
     } else if (showScroll && window.pageYOffset <= 400) {
       setShowScroll(false);
     }
-  };
+  }, [showScroll]);
 
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
