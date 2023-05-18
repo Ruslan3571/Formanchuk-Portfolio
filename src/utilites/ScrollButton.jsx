@@ -65,7 +65,7 @@ const ScrollButton = () => {
     return () => {
       window.removeEventListener('scroll', checkScrollTop);
     };
-  }, []);
+  }, [checkScrollTop]);
 
   return (
     showScroll && (
