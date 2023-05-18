@@ -1,37 +1,35 @@
 {
   "files": {
-    "main.css": "/Formanchuk-Portfolio/static/css/main.442a7637.css",
-    "main.js": "/Formanchuk-Portfolio/static/js/main.79e54de2.js",
-    "static/media/kuzyk.png": "/Formanchuk-Portfolio/static/media/kuzyk.3cc411ca8dce011d1a24.png",
-    "static/media/protsiv.png": "/Formanchuk-Portfolio/static/media/protsiv.e23c98f9353fb4ddcc4a.png",
-    "static/media/me.jpeg": "/Formanchuk-Portfolio/static/media/me.a9eb4c523dfbf15b926e.jpeg",
-    "static/media/vytyaganets.png": "/Formanchuk-Portfolio/static/media/vytyaganets.066f21dd3080677d305b.png",
-    "static/media/kaplunivska.png": "/Formanchuk-Portfolio/static/media/kaplunivska.349d1e4b2a23906298aa.png",
-    "static/media/bg-1.jpg": "/Formanchuk-Portfolio/static/media/bg-1.e7a118c397efc44bbf9e.jpg",
-    "static/media/ivanilov.png": "/Formanchuk-Portfolio/static/media/ivanilov.a2e57107557d9d373313.png",
-    "static/media/profilephoto.png": "/Formanchuk-Portfolio/static/media/profilephoto.5c84bc66e8846f8b7db4.png",
+    "main.css": "/Formanchuk-Portfolio/static/css/main.35ed5a61.css",
+    "main.js": "/Formanchuk-Portfolio/static/js/main.c4c02f69.js",
     "static/media/Poppins-Thin.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/me.jpg": "/Formanchuk-Portfolio/static/media/me.064b066ce577740afdef.jpg",
     "static/media/Poppins-Light.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/Poppins-Medium.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
     "static/media/Poppins-SemiBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/koriavets.png": "/Formanchuk-Portfolio/static/media/koriavets.c6509895c090d557d639.png",
-    "static/media/mailz.jpeg": "/Formanchuk-Portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
-    "static/media/repak.png": "/Formanchuk-Portfolio/static/media/repak.035a0f2994e0b013fb68.png",
-    "static/media/bg.jpg": "/Formanchuk-Portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/bg-1.jpg": "/Formanchuk-Portfolio/static/media/bg-1.b381ad3e4563fd3a56df.jpg",
+    "static/media/kuzyk.jpg": "/Formanchuk-Portfolio/static/media/kuzyk.19286b9933f514723011.jpg",
+    "static/media/protsiv.jpg": "/Formanchuk-Portfolio/static/media/protsiv.2c77edeae56d39783efc.jpg",
+    "static/media/mailz.jpg": "/Formanchuk-Portfolio/static/media/mailz.dcb5e084b76d2c112311.jpg",
+    "static/media/kaplunivska.jpg": "/Formanchuk-Portfolio/static/media/kaplunivska.03e9e2eb196c20d3e442.jpg",
+    "static/media/vytyaganets.jpg": "/Formanchuk-Portfolio/static/media/vytyaganets.8c790d545474de2a988d.jpg",
+    "static/media/ivanilov.jpg": "/Formanchuk-Portfolio/static/media/ivanilov.2abad31a1bbc6446c88d.jpg",
+    "static/media/profilephoto.jpg": "/Formanchuk-Portfolio/static/media/profilephoto.005c9a8bc5ae21f09229.jpg",
+    "static/media/koriavets.jpg": "/Formanchuk-Portfolio/static/media/koriavets.379350f85b57b742f843.jpg",
     "index.html": "/Formanchuk-Portfolio/index.html",
     "static/media/programming-skills.svg": "/Formanchuk-Portfolio/static/media/programming-skills.d19983a9bee884277ffa.svg",
     "static/media/projects.svg": "/Formanchuk-Portfolio/static/media/projects.2b352a52b0588dab62f5.svg",
     "static/media/interests.svg": "/Formanchuk-Portfolio/static/media/interests.809890a3e4fb0938f61b.svg",
     "static/media/education.svg": "/Formanchuk-Portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/Formanchuk-Portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
-    "main.442a7637.css.map": "/Formanchuk-Portfolio/static/css/main.442a7637.css.map",
-    "main.79e54de2.js.map": "/Formanchuk-Portfolio/static/js/main.79e54de2.js.map"
+    "main.35ed5a61.css.map": "/Formanchuk-Portfolio/static/css/main.35ed5a61.css.map",
+    "main.c4c02f69.js.map": "/Formanchuk-Portfolio/static/js/main.c4c02f69.js.map"
   },
   "entrypoints": [
-    "static/css/main.442a7637.css",
-    "static/js/main.79e54de2.js"
+    "static/css/main.35ed5a61.css",
+    "static/js/main.c4c02f69.js"
   ]
 }
