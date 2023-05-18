@@ -89,7 +89,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/repak.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/repak.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Yana Repak</h5>
@@ -130,7 +130,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/vytyaganets.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/vytyaganets.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Yuriy Vytyaganets</h5>
@@ -170,7 +170,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/kuzyk.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/kuzyk.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Alina Kuzyk</h5>
@@ -211,7 +211,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/koriavets.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/koriavets.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Yuliia Koriavets</h5>
@@ -252,7 +252,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/kaplunivska.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/kaplunivska.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Olha Kaplunivska</h5>
@@ -293,7 +293,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/ivanilov.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/ivanilov.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Vladislav Ivanilov</h5>
@@ -334,7 +334,7 @@ function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src={require(`../../../components/assets/img/Testimonial/protsiv.png`)}
+                      src={require(`../../../components/assets/img/Testimonial/protsiv.jpg`)}
                       alt="no internet connection"
                     ></img>
                     <h5>Sofia Protsiv</h5>

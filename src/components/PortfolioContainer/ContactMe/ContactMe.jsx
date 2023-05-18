@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import imgBack from '../../assets/img/images/mailz.jpeg';
+import imgBack from '../../assets/img/images/mailz.jpg';
 import load1 from '../../assets/img/images/load2.gif';
 import ScreenHeading from '../../../utilites/ScreenHeading/ScreenHeading';
 import ScrollService from '../../../utilites/ScrollService';
