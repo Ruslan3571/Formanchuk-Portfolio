@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Formanchuk-Portfolio/static/css/main.35ed5a61.css",
-    "main.js": "/Formanchuk-Portfolio/static/js/main.c4c02f69.js",
+    "main.css": "/Formanchuk-Portfolio/static/css/main.40730f57.css",
+    "main.js": "/Formanchuk-Portfolio/static/js/main.282880b9.js",
     "static/media/Poppins-Thin.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/me.jpg": "/Formanchuk-Portfolio/static/media/me.064b066ce577740afdef.jpg",
     "static/media/Poppins-Light.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -10,11 +10,11 @@
     "static/media/Poppins-SemiBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/Formanchuk-Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/bg-1.jpg": "/Formanchuk-Portfolio/static/media/bg-1.b381ad3e4563fd3a56df.jpg",
-    "static/media/kuzyk.jpg": "/Formanchuk-Portfolio/static/media/kuzyk.19286b9933f514723011.jpg",
+    "static/media/bg-1.jpg": "/Formanchuk-Portfolio/static/media/bg-1.1674e0c199b3d3448d98.jpg",
+    "static/media/kuzyk.jpg": "/Formanchuk-Portfolio/static/media/kuzyk.3fdb1bed1b5b799880fd.jpg",
     "static/media/protsiv.jpg": "/Formanchuk-Portfolio/static/media/protsiv.2c77edeae56d39783efc.jpg",
     "static/media/mailz.jpg": "/Formanchuk-Portfolio/static/media/mailz.dcb5e084b76d2c112311.jpg",
-    "static/media/kaplunivska.jpg": "/Formanchuk-Portfolio/static/media/kaplunivska.03e9e2eb196c20d3e442.jpg",
+    "static/media/kaplunivska.jpg": "/Formanchuk-Portfolio/static/media/kaplunivska.60cd13f399776d6b8590.jpg",
     "static/media/vytyaganets.jpg": "/Formanchuk-Portfolio/static/media/vytyaganets.8c790d545474de2a988d.jpg",
     "static/media/ivanilov.jpg": "/Formanchuk-Portfolio/static/media/ivanilov.2abad31a1bbc6446c88d.jpg",
     "static/media/profilephoto.jpg": "/Formanchuk-Portfolio/static/media/profilephoto.005c9a8bc5ae21f09229.jpg",
@@ -25,11 +25,11 @@
     "static/media/interests.svg": "/Formanchuk-Portfolio/static/media/interests.809890a3e4fb0938f61b.svg",
     "static/media/education.svg": "/Formanchuk-Portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/Formanchuk-Portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
-    "main.35ed5a61.css.map": "/Formanchuk-Portfolio/static/css/main.35ed5a61.css.map",
-    "main.c4c02f69.js.map": "/Formanchuk-Portfolio/static/js/main.c4c02f69.js.map"
+    "main.40730f57.css.map": "/Formanchuk-Portfolio/static/css/main.40730f57.css.map",
+    "main.282880b9.js.map": "/Formanchuk-Portfolio/static/js/main.282880b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ed5a61.css",
-    "static/js/main.c4c02f69.js"
+    "static/css/main.40730f57.css",
+    "static/js/main.282880b9.js"
   ]
 }
