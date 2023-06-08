@@ -12,7 +12,7 @@ function AboutMe(props) {
 
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-  
+
   useEffect(() => {
     return () => {
       fadeInSubscription.unsubscribe();
@@ -64,7 +64,11 @@ function AboutMe(props) {
               >
                 Hire Me
               </button>
-              <a href="./CV_Ruslan_Formanchuk.pdf" download>
+              <a
+                href="https://drive.google.com/file/d/1tcxLfhEalmmwhGKr9WIr5BUtHdmt3MP-/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
