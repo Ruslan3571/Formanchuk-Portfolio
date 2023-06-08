@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Formanchuk-Portfolio/static/css/main.3f330152.css",
-    "main.js": "/Formanchuk-Portfolio/static/js/main.a4a90e55.js",
+    "main.js": "/Formanchuk-Portfolio/static/js/main.54ddcf81.js",
     "static/media/Poppins-Thin.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/me.jpg": "/Formanchuk-Portfolio/static/media/me.064b066ce577740afdef.jpg",
     "static/media/Poppins-Light.ttf": "/Formanchuk-Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -26,10 +26,10 @@
     "static/media/education.svg": "/Formanchuk-Portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/Formanchuk-Portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
     "main.3f330152.css.map": "/Formanchuk-Portfolio/static/css/main.3f330152.css.map",
-    "main.a4a90e55.js.map": "/Formanchuk-Portfolio/static/js/main.a4a90e55.js.map"
+    "main.54ddcf81.js.map": "/Formanchuk-Portfolio/static/js/main.54ddcf81.js.map"
   },
   "entrypoints": [
     "static/css/main.3f330152.css",
-    "static/js/main.a4a90e55.js"
+    "static/js/main.54ddcf81.js"
   ]
 }
