@@ -74,7 +74,7 @@ function Profile() {
               Hire Me
             </button>
             <a
-              href="https://drive.google.com/file/d/1tcxLfhEalmmwhGKr9WIr5BUtHdmt3MP-/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1r4NpuHHYkkSAhAGroj0NqU-dsnN3Zhlb/view?usp=drive_link"
               target="_blank"
               rel="noreferrer noopener"
               download
