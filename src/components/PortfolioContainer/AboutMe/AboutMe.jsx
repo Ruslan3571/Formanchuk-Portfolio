@@ -21,7 +21,7 @@ function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      'I am a Junior Front End developer. I focus on HTML5, CSS3, JS, React, English. Development, practice and work for the result are important for me. I am skillful in analyzing problems and thinking of solutions to accurately troubleshoot and solve technical problems',
+      'As a highly motivated and enthusiastic Full-stack Developer, I am eager to apply my skills and knowledge to contribute to the development of modern applications. With a solid understanding of HTML, CSS, JavaScript, TypeScript, React, Node.js my ability lies in designing and developing intuitive and responsive interfaces that engage and delight users. I am excited to continue developing my skills and contributing to the growth of innovative and user-friendly web applications.',
     highlights: {
       bullets: [
         'Full Stack web development',
@@ -65,7 +65,7 @@ function AboutMe(props) {
                 Hire Me
               </button>
               <a
-                href="https://drive.google.com/file/d/1r4NpuHHYkkSAhAGroj0NqU-dsnN3Zhlb/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1gZIS2aVAcJwBUvNzkaP-acYlfDHqnd_A/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
               >

@@ -1,15 +1,14 @@
-import PortfolioContainer from './PortfolioContainer/PortfolioContainer';
-import { ToastContainer } from 'react-toastify';
-import ScrollButton from '../utilites/ScrollButton';
-import 'react-toastify/dist/ReactToastify.css';
-import LoadingAnimation from '../utilites/LoadingAnimation/LoadingAnimation';
 import { useEffect, useState } from 'react';
+import PortfolioContainer from './PortfolioContainer/PortfolioContainer';
+import ScrollButton from '../utilites/ScrollButton';
+import LoadingAnimation from '../utilites/LoadingAnimation/LoadingAnimation';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Симулюємо завантаження даних
     setTimeout(() => {
       setIsLoading(false);
     }, 4000);

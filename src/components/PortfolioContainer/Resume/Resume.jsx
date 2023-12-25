@@ -53,23 +53,23 @@ function Resume(props) {
   const programmingSlillDetails = [
     { skill: 'JavaScript', ratingPercentage: 85 },
     { skill: 'React Js', ratingPercentage: 75 },
-    { skill: 'Node Js', ratingPercentage: 55 },
+    { skill: 'Node Js', ratingPercentage: 65 },
     { skill: 'HTML', ratingPercentage: 85 },
     { skill: 'CSS', ratingPercentage: 80 },
-    { skill: 'Mongo Db', ratingPercentage: 60 },
+    { skill: 'TypeScript', ratingPercentage: 70 },
   ];
 
   const projectDetails = [
     {
       title: 'SlimMom',
-      duration: { fromDate: '2022', toDate: '2023' },
+      duration: { fromDate: '2022', toDate: '2022' },
       description:
         'SlimMom is a website designed for busy moms who want to achieve their weight loss goals in a healthy and sustainable way. The site features an adaptive layout, meaning its optimized for viewing on different devices, such as desktop computers, laptops, tablets, and smartphones.',
       subHeading: 'Techonologies Used: SCSS, JS, React, Rest API',
     },
     {
       title: 'Сocktails',
-      duration: { fromDate: '2022', toDate: '2023' },
+      duration: { fromDate: '2022', toDate: '2022' },
       description:
         'A simple service connected to a server API - you can add,remove or filter cocktails Role: Team lead: organization ofprocesses, pagination, receiving data from Api',
       subHeading:
@@ -89,8 +89,8 @@ function Resume(props) {
       <ResumeHeading
         heading={'IT School GoIT'}
         subHeading={'Fullstack Developer'}
-        fromDate={'2022'}
-        toDate={'2023'}
+        fromDate={'2021'}
+        toDate={'2022'}
       />
       <ResumeHeading
         heading={'Vinnytsia Cooperative Institute'}
@@ -106,7 +106,7 @@ function Resume(props) {
       <div className="experience-container">
         <ResumeHeading
           heading={'Quantula Group'}
-          subHeading={'Head of Sales Department'}
+          subHeading={'Sales Manager'}
           fromDate={'2018'}
           toDate={'2022'}
         />
